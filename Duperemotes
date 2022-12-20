@@ -1,1 +1,13 @@
+local aboikusikusik = getsenv(game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs['Bank Client'])
+
+return {
+	deposit = getconstants(aboikusikusik.Deposit)[16],
+	MyBanks = getconstants(aboikusikusik.GetMyBanks)[3],
+	GetBank = getconstants(aboikusikusik.GetBank)[3],
+	LeaveBank = getconstants(aboikusikusik.LeaveBank)[8],
+	DecideInvite = getconstants(aboikusikusik.DecideInvite)[6],
+	GetMyInvites = getconstants(aboikusikusik.GetMyInvites)[3],
+	Withdraw = getconstants(aboikusikusik.Withdraw)[16],
+	CancelInv = getconstants(aboikusikusik.DecideInvite)[13],
+}
 
